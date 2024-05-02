@@ -15,7 +15,7 @@ search.addEventListener('click',(e)=>{
     const movie=movieName.value;
     divContainer.textContent='';
     if(movie ===''){
-        setError("Enter the movie name,Dont Accept Empty Box")
+        setError("Enter the movie name,Don't Accept Empty Box")
     }
     else{
         //  fetchMovieData(movie);
